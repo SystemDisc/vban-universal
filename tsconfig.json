@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "checkJs": true,
+    "jsx": "preserve",
+    "moduleResolution": "node",
+    "module": "system",
+    "target": "es5",
+    "downlevelIteration": true,
+    "noImplicitAny": false,
+    "sourceMap": false,
+    "declaration": false,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "lib": [
+      "es2017",
+      "dom"
+    ],
+    "out": "/dev/null"
+  },
+  "include": [
+    "global.d.ts",
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/**/*.js",
+    "src/**/*.jsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

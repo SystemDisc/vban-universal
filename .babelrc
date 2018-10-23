@@ -1,0 +1,11 @@
+{
+  "presets": [
+    ["env", {
+      "targets": {
+        "electron": "2.0.12",
+        "chrome": "61"
+      }
+    }]
+  ],
+  "plugins": ["transform-react-jsx", "transform-object-rest-spread"]
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' http://localhost:*">
+    <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./index.css">
+    <title>VBAN Universal</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
+      <a class="navbar-brand col-2 mr-0" href="#">VBAN Universal</a>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row">
+        <nav class="col-2 bg-light sidebar">
+          <div class="sidebar-sticky">
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">
+                  <span data-feather="home"></span>
+                  Dashboard <span class="sr-only">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <span data-feather="bar-chart-2"></span>
+                  Appointment Data
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <main role="main" class="col-10 ml-auto px-4">
+          <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+            <h1 class="h2">VBAN Receiver</h1>
+          </div>
+
+          <h2>Section title</h2>
+          <div>
+            <button id="listenButton" class="btn btn-primary" type="button">Listen</button>
+          </div>
+        </main>
+      </div>
+    </div>
+
+    <script src="./index.js"></script>
+    <script src="../../node_modules/bootstrap/dist/js/bootstrap.js"></script>
+  </body>
+</html>
