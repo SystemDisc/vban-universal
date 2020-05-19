@@ -75,6 +75,7 @@
     "electron-log": "^2.2.16",
     "electron-redux": "^1.3.1",
     "electron-updater": "^2.23.3",
+    "event-stream": "^4.0.1",
     "feather-icons": "^4.7.3",
     "history": "^4.7.2",
     "jquery": "^3.3.1",
