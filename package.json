@@ -83,7 +83,7 @@
     "pcm-util": "^3.0.0",
     "popper.js": "^1.14.3",
     "react": "^16.4.1",
-    "react-dom": "^16.4.1",
+    "react-dom": "^16.4.2",
     "react-redux": "^5.0.7",
     "react-router": "^4.3.1",
     "react-router-dom": "^4.3.1",
