@@ -79,7 +79,7 @@
     "feather-icons": "^4.7.3",
     "history": "^4.7.2",
     "jquery": "^3.5.0",
-    "moment": "^2.22.2",
+    "moment": "^2.29.4",
     "pcm-util": "^3.0.0",
     "popper.js": "^1.14.3",
     "react": "^16.4.1",
