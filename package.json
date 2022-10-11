@@ -122,7 +122,7 @@
     "concurrently": "^3.6.0",
     "cross-env": "^5.2.0",
     "electron": "^7.2.4",
-    "electron-builder": "^20.20.4",
+    "electron-builder": "^20.44.4",
     "livereload": "^0.7.0",
     "nodemon": "^1.18.4",
     "rimraf": "^2.6.2",
